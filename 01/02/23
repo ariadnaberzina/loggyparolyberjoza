@@ -1,0 +1,190 @@
+#include <iostream>
+using namespace std;
+int main()
+/*{
+	int n1, n2;
+	cin >> n1 >> n2;
+	if (n1 > 0 && n2>0) {
+		cout << "positive!" << endl;
+	}
+	else cout << "wrong! it's negative!" << endl;
+	if (n1 > n2) {
+		cout << "first one is the maximum, second is the minimum!" << endl;
+	}
+	else cout << "first one is the minimum, second is the maximum!" << endl;
+	if (n1 % 2 == 0) {
+		cout << "even number" << endl;
+	}
+	else cout << "odd number" << endl;
+	if (n2 % 2 == 0) {
+		cout << "even number" << endl;
+	}
+	else cout << "odd number" << endl;
+}
+{
+	int mark;
+	cin >> mark;
+	if (mark >= 90) {
+		cout << "A" << endl;
+	}
+	else if (mark >= 80) {
+		cout << "B" << endl;
+	}
+	else if (mark >= 70) {
+		cout << "C" << endl;
+	}
+	else if (mark >= 60) {
+		cout << "D" << endl;
+	}
+	else if (mark >= 40) {
+		cout << "E" << endl;
+	}
+	else {
+		cout << "F" << endl;
+	}
+}*/
+int dotw;
+
+cout << "enter a number 1-7:" << endl;
+
+cin >> dotw;
+
+switch (dotw)
+
+{
+
+case 1:
+
+cout << "monday" << endl;
+
+break;
+
+case 2:
+
+cout << "tuesday" << endl;
+
+break;
+
+case 3:
+
+cout << "wednesday" << endl;
+
+break;
+
+case 4:
+
+cout << "thursday" << endl;
+
+break;
+
+case 5:
+
+cout << "friday" << endl;
+
+break;
+
+case 6:
+
+cout << "saturtday" << endl;
+
+break;
+
+case 7:
+
+cout << "sunday" << endl;
+
+break;
+
+default:
+
+cout << "incorrect day" << endl;
+
+int month;
+
+cout << "enter a number 1-12 :" << endl;
+
+cin >> month;
+
+switch (month)
+
+{
+
+case 1:
+
+cout << "jan" << endl;
+
+break;
+
+case 2:
+
+cout << "feb" << endl;
+
+break;
+
+case 3:
+
+cout << "mar" << endl;
+
+break;
+
+case 4:
+
+cout << "apr" << endl;
+
+break;
+
+case 5:
+
+cout << "may" << endl;
+
+break;
+
+case 6:
+
+cout << "jun" << endl;
+
+break;
+
+case 7:
+
+cout << "jul" << endl;
+
+break;
+
+case 8:
+
+cout << "aug" << endl;
+
+break;
+
+case 9:
+
+cout << "sept" << endl;
+
+break;
+
+case 10:
+
+cout << "oct" << endl;
+
+break;
+
+case 11:
+
+cout << "nov" << endl;
+
+break;
+
+case 12:
+
+cout << "dec" << endl;
+
+break;
+
+default:
+
+cout << "incorrect month" << endl;
+
+}
+
+
