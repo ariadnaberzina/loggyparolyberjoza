@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+/*string d;
+do {
+	cin >> d;
+	cout << d << endl;
+    } while( d != "stop" &&
+d!= "STOP");
+	string password;
+	int i = 5;
+	do {
+		cin >> password;
+		i--;
+			if (i == 0) {
+				cout << "you're out!";
+					break;
+			}
+	} while (password != "blbla");*/
+	int i = 1005;
+	while (i != 0) {
+		i = i = -5;
+		cout << i << endl;
+	}
+		return 0;
+}
